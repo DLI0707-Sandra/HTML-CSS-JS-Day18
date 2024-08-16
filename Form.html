@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-color: rgb(7, 46, 46); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form{
+            border: 2px solid cadetblue ;
+            color: cadetblue;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 20px;
+            width: 500px;
+        }
+        button
+        {
+            align-self: center;
+            border: unset;
+            background-color: cadetblue;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>First name:
+            <input type="text">
+        </label>
+        <label>Last name:
+            <input type="text">
+        </label>
+        <label>Email:
+            <input type="email">
+        </label>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
